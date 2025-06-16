@@ -1,0 +1,65 @@
+Project: Premier League 2026 Prediction Simulator
+
+For each prompt used with an AI tool, include the original prompt and a short summary of the response. Also include any additional resources used.
+
+Prompt 1:
+
+How do I structure a Streamlit app in parts instead of putting everything in main.py?
+
+Response Summary:
+
+Learned how to modularize the code using a utils/folder
+
+Broke down components into api_fetch.py, simulate.py, and visualize.py
+
+Helped me keep the project organized and easier to maintain
+
+Prompt 2:
+
+Why is my Streamlit app giving a KeyError: 'matches' when I try to load data?
+
+Response Summary:
+
+Figured out the API response didn’t always contain the "matches" key
+
+Added proper error handling and debug messages to prevent app from crashing
+
+Made sure my application works even if the API returns incomplete data
+
+Prompt 3: 
+
+How can I allow the user to override match results and automatically update the table?
+
+Response Summary:
+
+Created a function to let users change match outcomes
+
+Built logic to recalculate team standings based on edited scores
+
+Connected everything using Streamlit’s sidebar UI components
+
+Prompt 4:
+
+How can I make my Premier League predictions more realistic using last season's stats from the API?
+
+Response Summary:
+
+Learned how to use stats like team form, goal difference, and previous wins
+
+Developed a weighted logic system to simulate future results more accurately (Poisson distribution)
+
+Replaced random guesses with data-informed predictions for better realism and more accurate standings 
+
+📚 Other Resources Used
+Football Data API
+https://www.football-data.org
+→ Used to fetch real-time Premier League team and match data
+
+Streamlit Documentation
+https://docs.streamlit.io
+→ Helped me build interactive visual components and structure the app
+
+Altair Docs
+https://altair-viz.github.io
+→ Used for building bar charts to visualize team stats
+
